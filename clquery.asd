@@ -15,4 +15,4 @@
   :serial T
   :components ((:file "package")
 	       (:file "clquery" :depends-on ("package")))
-  :depends-on "eu.tentacleriot.mdom")
+  :depends-on ("mdom"))
